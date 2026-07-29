@@ -25,7 +25,8 @@
     "express": "^5.0.0",
     "express-rate-limit": "^8.0.0",
     "helmet": "^8.0.0",
-    "swagger-ui-express": "^5.0.0"
+    "swagger-ui-express": "^5.0.0",
+    "ws": "^8.21.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
