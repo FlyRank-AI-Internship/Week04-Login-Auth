@@ -32,4 +32,4 @@ router.post("/logout", authenticate, logout);
  */
 router.post("/refresh", refreshAccessToken);
 
-export default router
+export default router;
