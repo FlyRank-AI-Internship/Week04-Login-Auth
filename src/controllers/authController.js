@@ -15,13 +15,17 @@ const isValidEmail = (email) => {
  */
 export const signup = async (req, res, next) => {
   try {
-    const email =
-      typeof req.body.email === "string"
-        ? req.body.email.trim().toLowerCase()
-        : "";
+    const { email: rawEmail, password: rawPassword } = req.body ?? {};
 
-    const password =
-      typeof req.body.password === "string" ? req.body.password : "";
+        const email =
+        typeof rawEmail === "string"
+            ? rawEmail.trim().toLowerCase()
+            : "";
+
+        const password =
+        typeof rawPassword === "string"
+            ? rawPassword
+            : "";
 
     if (!email || !password) {
       return res.status(400).json({
