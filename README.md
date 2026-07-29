@@ -210,7 +210,8 @@ curl -i -X POST http://localhost:3000/auth/logout \
 
 ## Swagger Screenshot
 
-![Swagger UI](screenshots/swagger-ui.png)
+<img width="1920" height="2302" alt="screencapture-localhost-3000-docs-2026-07-29-17_14_31" src="https://github.com/user-attachments/assets/d4767e48-d306-453a-85df-f50097f9efa3" />
+
 
 ## Security Decisions
 
